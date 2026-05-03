@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+גלו את עולם הקייטסרפינג עם מישל המלכה! הדרכה מקצועית, אווירה ימית מרגשת וחוויית ספורט ימי הרפתקאות שלא תשכחו. הצטרפו עכשיו!
+
+### קורסים
+https://example.com/courses
+קורס קייטסרפינג למתחילים ומתקדמים בהדרכה אישית ומקצועית. תכנית לימודים מותאמת, ציוד מתקדם ותוצאות מוכחות. הירשמו לקורס הבא עוד היום!
+
+### אודות
+https://example.com/about
+היכירו את מישל המלכה — מדריכת קייטסרפינג מוסמכת עם תשוקה אמיתית לים ולרוח. גלו מה הופך את ההדרכה שלה לחוויה מקצועית ובלתי נשכחת לכל מתאמן.
+
+### צור קשר
+https://example.com/contact
+רוצים להתחיל קורס קייטסרפינג או לתאם פעילות ספורט ימי לצוותים עסקיים? צרו קשר עם מישל המלכה עכשיו ונבנה יחד את החוויה הימית המושלמת עבורכם!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
