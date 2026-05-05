@@ -223,6 +223,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="תכבשו את הרוח והגלים — מישל המלכה">
     <meta name="twitter:description" content="קורס קייטסרפינג למתחילים ומתקדמים בהדרכה אישית ומקצועית. תכנית לימודים מותאמת, ציוד מתקדם ותוצאות מוכחות. הירשמו לקורס הבא עוד היום!">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://mishelhamalka.zappy5.app#organization","name":"מישל המלכה","url":"https://mishelhamalka.zappy5.app","description":"A kitesurfing instructor offering lessons and courses, combining the thrill of wind and waves with professional coaching. The brand revolves around the exciting and adventurous world of kitesurfing, targeting water sports enthusiasts who want to learn this dynamic sport. The atmosphere is energetic, outdoor, and ocean-inspired, with a strong emphasis on professional guidance and skill development."},{"@type":"WebSite","@id":"https://mishelhamalka.zappy5.app#website","url":"https://mishelhamalka.zappy5.app","name":"מישל המלכה","publisher":{"@id":"https://mishelhamalka.zappy5.app#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://mishelhamalka.zappy5.app"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://mishelhamalka.zappy5.app/courses"}]}]}</script>
     <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
@@ -298,11 +299,38 @@
     </style>
 
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        #mic-access-tool-box, .mic-access-tool-box, #mic-init-access-tool #mic-access-tool-box,
+        div[id*="mic-access-tool-box"], ._access-menu {
+          visibility: hidden; opacity: 0; pointer-events: auto !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
     </style>
 </head>
@@ -730,38 +758,7 @@
     
     console.log('[Navbar] Mobile menu initialized successfully');
     
-    // === WHATSAPP BUTTON VISIBILITY FIX ===
-    // Ensure WhatsApp floating button is hidden on desktop and visible on mobile
-    // IMPORTANT: Only target the floating button by its class, NOT generic wa.me links
-    const handleWhatsAppVisibility = function() {
-      const whatsappBtn = document.querySelector('.whatsapp-float');
-      if (whatsappBtn) {
-        const isDesktop = window.innerWidth >= 769;
-        if (isDesktop) {
-          whatsappBtn.style.setProperty('display', 'none', 'important');
-          whatsappBtn.style.setProperty('visibility', 'hidden', 'important');
-          whatsappBtn.style.setProperty('opacity', '0', 'important');
-          whatsappBtn.style.setProperty('pointer-events', 'none', 'important');
-          console.log('[WhatsApp] Button hidden on desktop');
-        } else {
-          whatsappBtn.style.removeProperty('display');
-          whatsappBtn.style.removeProperty('visibility');
-          whatsappBtn.style.removeProperty('opacity');
-          whatsappBtn.style.removeProperty('pointer-events');
-          console.log('[WhatsApp] Button visible on mobile');
-        }
-      }
-    };
-    
-    // Run on load
-    handleWhatsAppVisibility();
-    
-    // Run on resize with debouncing
-    let resizeTimer;
-    window.addEventListener('resize', function() {
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(handleWhatsAppVisibility, 100);
-    });
+    // WhatsApp visibility is now controlled via CSS (siteSettings)
   });
 })();
 
