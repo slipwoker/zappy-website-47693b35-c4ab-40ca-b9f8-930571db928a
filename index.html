@@ -223,6 +223,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="מישל המלכה — מישל המלכה">
     <meta name="twitter:description" content="גלו את עולם הקייטסרפינג עם מישל המלכה! הדרכה מקצועית, אווירה ימית מרגשת וחוויית ספורט ימי הרפתקאות שלא תשכחו. הצטרפו עכשיו!">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://mishelhamalka.zappy5.app#organization","name":"מישל המלכה","url":"https://mishelhamalka.zappy5.app","description":"A kitesurfing instructor offering lessons and courses, combining the thrill of wind and waves with professional coaching. The brand revolves around the exciting and adventurous world of kitesurfing, targeting water sports enthusiasts who want to learn this dynamic sport. The atmosphere is energetic, outdoor, and ocean-inspired, with a strong emphasis on professional guidance and skill development."},{"@type":"WebSite","@id":"https://mishelhamalka.zappy5.app#website","url":"https://mishelhamalka.zappy5.app","name":"מישל המלכה","publisher":{"@id":"https://mishelhamalka.zappy5.app#organization"}}]}</script>
     <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
@@ -298,11 +299,37 @@
     </style>
 
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
     </style>
 </head>
@@ -768,10 +795,10 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="index-hero-section">
   <!-- Background image layer -->
   <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A professional kitesurfing instructor flying high above dramatic open ocean waves, kite fully inflated against a stormy teal-blue sky with golden sunlight breaking through clouds. Wide cinematic shot showing the full kite, bar, and surfer in dynamic motion. Deep teal water, spray and foam, powerful atmospheric coastal energy. Shot from low angle to emphasize scale and drama. Premium surf magazine quality." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="מישל המלכה - מדריכת קייטסרפינג מקצועית בים הפתוח">
+    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A professional kitesurfing instructor flying high above dramatic open ocean waves, kite fully inflated against a stormy teal-blue sky with golden sunlight breaking through clouds. Wide cinematic shot showing the full kite, bar, and surfer in dynamic motion. Deep teal water, spray and foam, powerful atmospheric coastal energy. Shot from low angle to emphasize scale and drama. Premium surf magazine quality." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="מישל המלכה - מדריכת קייטסרפינג מקצועית בים הפתוח" data-hero-background="true" data-element-type="image" data-element-id="img-1777982282325-f6kdok7ij">
   </div>
 
   <!-- Scrim overlay -->
@@ -800,11 +827,10 @@
       <h3 class="index-hero-kicker">רוח. גלים. התקדמות מודרכת.</h3>
 
       <!-- Main headline -->
-      <h1 class="index-hero-headline">
+      <h1 class="index-hero-headline" style="">
         מישל המלכה —
         <span class="index-hero-headline-accent">קייטסרפינג</span>
-        שמתחיל כאן
-      </h1>
+        שמתחיל כאן טסט של עידו</h1>
 
       <!-- Supporting copy -->
       <p class="index-hero-body">
@@ -813,11 +839,11 @@
 
       <!-- CTA group -->
       <div class="index-hero-ctas">
-        <a href="/contact" class="index-hero-btn-primary">
+        <a href="/contact" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1777982282322-s9ri2kktt" data-native-element="true">
           <i class="fa-solid fa-envelope"></i>
           צרו קשר
         </a>
-        <a href="/courses" class="index-hero-btn-secondary">
+        <a href="/courses" class="index-hero-btn-secondary" data-element-type="button" data-element-id="btn-1777982282322-7z0scgmec" data-native-element="true">
           <i class="fa-solid fa-water"></i>
           הקורסים שלי
         </a>
