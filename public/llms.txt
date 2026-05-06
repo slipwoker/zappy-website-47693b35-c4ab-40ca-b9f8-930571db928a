@@ -18,9 +18,6 @@ https://wisy.co.il/courses
 https://wisy.co.il/about
 היכירו את מישל המלכה — מדריכת קייטסרפינג מוסמכת עם תשוקה אמיתית לים ולרוח. גלו מה הופך את ההדרכה שלה לחוויה מקצועית ובלתי נשכחת לכל מתאמן.
 
-### Page
-https://wisy.co.il/test
-
 ### מוכנים לצאת לים? דברו איתנו — מישל המלכה
 https://wisy.co.il/contact
 רוצים להתחיל קורס קייטסרפינג או לתאם פעילות ספורט ימי לצוותים עסקיים? צרו קשר עם מישל המלכה עכשיו ונבנה יחד את החוויה הימית המושלמת עבורכם!
@@ -51,11 +48,11 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `email` (email)
+  - `name` (text, required)
+  - `email` (email, required)
   - `phone` (tel)
   - `message` (textarea)
-  - `privacy_consent` (checkbox)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
