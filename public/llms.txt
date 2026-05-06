@@ -7,33 +7,33 @@
 ## Pages
 
 ### בית
-https://mishelhamalka.zappy5.app
+https://wisy.co.il
 גלו את עולם הקייטסרפינג עם מישל המלכה! הדרכה מקצועית, אווירה ימית מרגשת וחוויית ספורט ימי הרפתקאות שלא תשכחו. הצטרפו עכשיו!
 
 ### קורסים
-https://mishelhamalka.zappy5.app/courses
+https://wisy.co.il/courses
 קורס קייטסרפינג למתחילים ומתקדמים בהדרכה אישית ומקצועית. תכנית לימודים מותאמת, ציוד מתקדם ותוצאות מוכחות. הירשמו לקורס הבא עוד היום!
 
 ### אודות
-https://mishelhamalka.zappy5.app/about
+https://wisy.co.il/about
 היכירו את מישל המלכה — מדריכת קייטסרפינג מוסמכת עם תשוקה אמיתית לים ולרוח. גלו מה הופך את ההדרכה שלה לחוויה מקצועית ובלתי נשכחת לכל מתאמן.
 
 ### צור קשר
-https://mishelhamalka.zappy5.app/contact
+https://wisy.co.il/contact
 רוצים להתחיל קורס קייטסרפינג או לתאם פעילות ספורט ימי לצוותים עסקיים? צרו קשר עם מישל המלכה עכשיו ונבנה יחד את החוויה הימית המושלמת עבורכם!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://mishelhamalka.zappy5.app/privacy
+https://wisy.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://mishelhamalka.zappy5.app/terms
+https://wisy.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://mishelhamalka.zappy5.app/accessibility
+https://wisy.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -43,8 +43,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://mishelhamalka.zappy5.app/contact
-- Endpoint: https://mishelhamalka.zappy5.app/api/email/contact-form
+- URL: https://wisy.co.il/contact
+- Endpoint: https://wisy.co.il/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -77,6 +77,6 @@ A kitesurfing instructor offering lessons and courses, combining the thrill of w
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://mishelhamalka.zappy5.app/sitemap.xml
-- Robots: https://mishelhamalka.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://mishelhamalka.zappy5.app/llms-full.txt
+- Sitemap (XML): https://wisy.co.il/sitemap.xml
+- Robots: https://wisy.co.il/robots.txt
+- Flattened page text (for LLMs): https://wisy.co.il/llms-full.txt
