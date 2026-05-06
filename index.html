@@ -327,9 +327,10 @@
       @media (min-width: 769px) {
         #mic-access-tool-general-button, .mic-access-tool-general-button,
         #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        #mic-access-tool-box, .mic-access-tool-box, #mic-init-access-tool #mic-access-tool-box,
+        div[id*="mic-access-tool-box"], ._access-menu {
+          visibility: hidden; opacity: 0; pointer-events: auto !important;
         }
       }
     </style>
@@ -794,10 +795,10 @@
   <div class="index-hero-content">
     <div class="index-hero-inner">
       <!-- Kicker -->
-      <h3 class="index-hero-kicker" style="">רוח. גלים. התקדמות מודרכת.</h3>
+      <h3 class="index-hero-kicker" >רוח. גלים. התקדמות מודרכת.</h3>
 
       <!-- Main headline -->
-      <h1 class="index-hero-headline" style="">
+      <h1 class="index-hero-headline" >
         מישל המלכה —
         <span class="index-hero-headline-accent">קייטסרפינג</span>
         שמתחיל כאן טסט של עידו סלע</h1>
