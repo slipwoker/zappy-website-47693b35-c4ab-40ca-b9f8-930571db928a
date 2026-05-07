@@ -139,7 +139,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-  --primary: #0F5C6E;
+--primary: #0F5C6E;
   --secondary: #3A6EA5;
   --accent: #F4B860;
   --bg-light: #F6FAFC;
@@ -182,6 +182,7 @@
   --gradient-light-section: linear-gradient(180deg, #F5F2ED 0%, #EDE8E0 100%);
   --gradient-overlay-dark: linear-gradient(to bottom, rgba(14,74,74,0.3) 0%, rgba(14,74,74,0.75) 100%);
   --gradient-overlay-light: linear-gradient(to right, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0) 100%);
+  --nav-overlay-opacity: 0.35;
 }
 
 *,
@@ -7832,13 +7833,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 
-/* Logo size constraint - enforce max-height only */
-.logo, img.logo, .logo img, .logo-link img, .nav-brand img {
-  max-height: 40px !important;
-  height: auto !important;
-  width: auto !important;
-  object-fit: contain !important;
-}
+
 
 
 /* Hide WhatsApp float button on desktop (mobile-only) */
@@ -8072,8 +8067,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 /* END MOBILE RESPONSIVE FIXES */
 
 /* === NAVBAR STYLE OVERRIDES START === */
-.navbar { background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(0,0,0,var(--nav-overlay-opacity,0.35)), transparent) !important; transition: background-color 0.3s ease, background-image 0.3s ease, backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease, box-shadow 0.3s ease !important; }
-.zappy-catalog-menu, #zappy-catalog-menu { background-image: linear-gradient(to bottom, rgba(0,0,0,var(--nav-overlay-opacity,0.35)), transparent) !important; transition: background 0.3s ease, background-image 0.3s ease, backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease !important;}
+.navbar { background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(0,0,0,var(--nav-overlay-opacity, 0.35)), transparent) !important; transition: background-color 0.3s ease, background-image 0.3s ease, backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease, box-shadow 0.3s ease !important; }
+.zappy-catalog-menu, #zappy-catalog-menu { background-image: linear-gradient(to bottom, rgba(0,0,0,var(--nav-overlay-opacity, 0.35)), transparent) !important; transition: background 0.3s ease, background-image 0.3s ease, backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease !important;}
 .navbar .nav-menu > li > a,
 .navbar .nav-menu > .nav-item > a,
 .navbar .nav-link,
@@ -8149,9 +8144,9 @@ nav.navbar .sub-menu li a:hover { color: #F4B860 !important; background-color: r
   .navbar:not(.scrolled) .sub-menu a:hover,
   .navbar:not(.scrolled) .sub-menu li a:hover { color: var(--nav-text-hover, var(--accent)) !important; }
 }
-.navbar.scrolled { background-color: rgba(11,47,58,0.85) !important; background-image: none !important; backdrop-filter: blur(12px) !important; -webkit-backdrop-filter: blur(12px) !important; box-shadow: 0 2px 16px rgba(0,0,0,0.12) !important; }
+.navbar.scrolled { background-color: rgba(246,250,252,0.85) !important; background-image: none !important; backdrop-filter: blur(12px) !important; -webkit-backdrop-filter: blur(12px) !important; box-shadow: 0 2px 16px rgba(0,0,0,0.12) !important; }
 .navbar.scrolled::before, .navbar.scrolled::after { background: transparent !important; opacity: 0 !important; }
-.navbar.scrolled ~ .zappy-catalog-menu, .navbar.scrolled ~ #zappy-catalog-menu, .zappy-catalog-menu.scrolled, #zappy-catalog-menu.scrolled { background: rgba(11,47,58,0.85) !important; background-image: none !important; backdrop-filter: blur(12px) !important; -webkit-backdrop-filter: blur(12px) !important; }
+.navbar.scrolled ~ .zappy-catalog-menu, .navbar.scrolled ~ #zappy-catalog-menu, .zappy-catalog-menu.scrolled, #zappy-catalog-menu.scrolled { background: rgba(246,250,252,0.85) !important; background-image: none !important; backdrop-filter: blur(12px) !important; -webkit-backdrop-filter: blur(12px) !important; }
 .zappy-catalog-menu.scrolled .catalog-menu-item,
 .zappy-catalog-menu.scrolled .catalog-menu-all,
 #zappy-catalog-menu.scrolled .catalog-menu-item,
@@ -8159,7 +8154,7 @@ nav.navbar .sub-menu li a:hover { color: #F4B860 !important; background-color: r
 .navbar.scrolled ~ .zappy-catalog-menu .catalog-menu-item,
 .navbar.scrolled ~ .zappy-catalog-menu .catalog-menu-all,
 .navbar.scrolled ~ #zappy-catalog-menu .catalog-menu-item,
-.navbar.scrolled ~ #zappy-catalog-menu .catalog-menu-all { color: var(--frosted-text, #F6FAFC) !important; }
+.navbar.scrolled ~ #zappy-catalog-menu .catalog-menu-all { color: var(--frosted-text, #12313A) !important; }
 .zappy-catalog-menu.scrolled .catalog-menu-item:hover,
 .zappy-catalog-menu.scrolled .catalog-menu-all:hover,
 #zappy-catalog-menu.scrolled .catalog-menu-item:hover,
@@ -8171,16 +8166,16 @@ nav.navbar .sub-menu li a:hover { color: #F4B860 !important; background-color: r
 .navbar.scrolled .nav-menu > li > a,
 .navbar.scrolled .nav-menu > .nav-item > a,
 .navbar.scrolled .nav-link,
-.navbar.scrolled a:not(.nav-cta-btn) { color: var(--frosted-text, #F6FAFC) !important; }
+.navbar.scrolled a:not(.nav-cta-btn) { color: var(--frosted-text, #12313A) !important; }
 .navbar.scrolled .nav-menu > li > a:hover,
 .navbar.scrolled .nav-menu > .nav-item > a:hover,
 .navbar.scrolled .nav-link:hover,
 .navbar.scrolled a:not(.nav-cta-btn):hover { color: var(--nav-text-hover, var(--accent)) !important; }
-.navbar.scrolled .navbar-brand, .navbar.scrolled .navbar-brand a { color: var(--frosted-text, #F6FAFC) !important; }
-.navbar.scrolled .dropdown-toggle { color: var(--frosted-text, #F6FAFC) !important; }
-.navbar.scrolled .mobile-hamburger-btn, .navbar.scrolled .mobile-close-btn { color: var(--frosted-text, #F6FAFC) !important; }
-.navbar.scrolled .phone-header-btn { color: var(--frosted-text, #F6FAFC) !important; }
-.navbar.scrolled .mobile-toggle { color: var(--frosted-text, #F6FAFC) !important; }
+.navbar.scrolled .navbar-brand, .navbar.scrolled .navbar-brand a { color: var(--frosted-text, #12313A) !important; }
+.navbar.scrolled .dropdown-toggle { color: var(--frosted-text, #12313A) !important; }
+.navbar.scrolled .mobile-hamburger-btn, .navbar.scrolled .mobile-close-btn { color: var(--frosted-text, #12313A) !important; }
+.navbar.scrolled .phone-header-btn { color: var(--frosted-text, #12313A) !important; }
+.navbar.scrolled .mobile-toggle { color: var(--frosted-text, #12313A) !important; }
 .navbar.scrolled .mobile-toggle svg { color: inherit !important; }
 .navbar.scrolled .mobile-toggle svg path { stroke: currentColor !important; }
 .navbar.scrolled .mobile-hamburger-btn svg,
@@ -8193,8 +8188,8 @@ nav.navbar .sub-menu li a:hover { color: #F4B860 !important; background-color: r
 .navbar.scrolled .phone-header-btn svg path,
 .navbar.scrolled .navbar-brand svg path,
 .navbar.scrolled .logo-link svg path { stroke: currentColor !important; }
-.navbar.scrolled .nav-search-btn { color: var(--frosted-text, #F6FAFC) !important; }
-.navbar.scrolled .nav-search-btn svg { stroke: var(--frosted-text, #F6FAFC) !important; fill: none !important; }
+.navbar.scrolled .nav-search-btn { color: var(--frosted-text, #12313A) !important; }
+.navbar.scrolled .nav-search-btn svg { stroke: var(--frosted-text, #12313A) !important; fill: none !important; }
 @media (min-width: 769px) {
   .navbar.scrolled .sub-menu,
   .navbar.scrolled ul.sub-menu,
@@ -8653,6 +8648,21 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 
 
+
+/* Zappy custom logo size (desktop only — mobile stays at 110px/35px) */
+@media (min-width: 769px) {
+  .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
+    max-height: none !important;
+    height: 63px !important;
+    max-width: 251px !important;
+    width: auto !important;
+    object-fit: contain !important;
+  }
+  .nav-container {
+    min-height: 93px !important;
+  }
+}
+/* /Zappy custom logo size */
 
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
