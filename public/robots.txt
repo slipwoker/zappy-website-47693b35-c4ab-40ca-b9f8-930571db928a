@@ -50,4 +50,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://wisy.co.il/sitemap.xml
+Sitemap: https://zappy-site-47693b35-c4ab-40ca-b9f8.onrender.com/sitemap.xml

@@ -2,13 +2,13 @@
 
 A kitesurfing instructor offering lessons and courses, combining the thrill of wind and waves with professional coaching. The brand revolves around the exciting and adventurous world of kitesurfing, targeting water sports enthusiasts who want to learn this dynamic sport. The atmosphere is energetic, outdoor, and ocean-inspired, with a strong emphasis on professional guidance and skill development.
 
-Source: https://wisy.co.il
+Source: https://zappy-site-47693b35-c4ab-40ca-b9f8.onrender.com
 
 ---
 
 ## מישל המלכה — מישל המלכה
 
-URL: https://wisy.co.il
+URL: https://zappy-site-47693b35-c4ab-40ca-b9f8.onrender.com
 Description: גלו את עולם הקייטסרפינג עם מישל המלכה! הדרכה מקצועית, אווירה ימית מרגשת וחוויית ספורט ימי הרפתקאות שלא תשכחו. הצטרפו עכשיו!
 
 מישל המלכה — מישל המלכה
@@ -102,7 +102,7 @@ Description: גלו את עולם הקייטסרפינג עם מישל המלכ�
 
 
 
-# מישל המלכה — קייטסרפינג שמתחיל כאן טסט של עידו סלע
+# מישל המלכה — קייטסרפינג שמתחיל כאן
 
 
 
@@ -543,7 +543,7 @@ Water Start ראשון
 
 ## תכבשו את הרוח והגלים — מישל המלכה
 
-URL: https://wisy.co.il/courses
+URL: https://zappy-site-47693b35-c4ab-40ca-b9f8.onrender.com/courses
 Description: קורס קייטסרפינג למתחילים ומתקדמים בהדרכה אישית ומקצועית. תכנית לימודים מותאמת, ציוד מתקדם ותוצאות מוכחות. הירשמו לקורס הבא עוד היום!
 
 תכבשו את הרוח והגלים — מישל המלכה
@@ -1093,7 +1093,7 @@ Description: קורס קייטסרפינג למתחילים ומתקדמים ב�
 
 ## הסיפור מאחורי הגלשן — מישל המלכה
 
-URL: https://wisy.co.il/about
+URL: https://zappy-site-47693b35-c4ab-40ca-b9f8.onrender.com/about
 Description: היכירו את מישל המלכה — מדריכת קייטסרפינג מוסמכת עם תשוקה אמיתית לים ולרוח. גלו מה הופך את ההדרכה שלה לחוויה מקצועית ובלתי נשכחת לכל מתאמן.
 
 הסיפור מאחורי הגלשן — מישל המלכה
@@ -1499,7 +1499,7 @@ Description: היכירו את מישל המלכה — מדריכת קייטסר
 
 ## מדיניות פרטיות
 
-URL: https://wisy.co.il/privacy
+URL: https://zappy-site-47693b35-c4ab-40ca-b9f8.onrender.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -1703,7 +1703,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://wisy.co.il/accessibility
+URL: https://zappy-site-47693b35-c4ab-40ca-b9f8.onrender.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1916,7 +1916,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://wisy.co.il/terms
+URL: https://zappy-site-47693b35-c4ab-40ca-b9f8.onrender.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -2148,7 +2148,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## מוכנים לצאת לים? דברו איתנו — מישל המלכה
 
-URL: https://wisy.co.il/contact
+URL: https://zappy-site-47693b35-c4ab-40ca-b9f8.onrender.com/contact
 Description: רוצים להתחיל קורס קייטסרפינג או לתאם פעילות ספורט ימי לצוותים עסקיים? צרו קשר עם מישל המלכה עכשיו ונבנה יחד את החוויה הימית המושלמת עבורכם!
 
 מוכנים לצאת לים? דברו איתנו — מישל המלכה
